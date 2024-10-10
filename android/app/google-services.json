@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217515345229",
+    "project_id": "almsyrtftyt-4ab6e",
+    "storage_bucket": "almsyrtftyt-4ab6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217515345229:android:42b1caeb2e4d26367d6304",
+        "android_client_info": {
+          "package_name": "com.example.fityatalmasera"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB00XvBYkbUrLP-gxY82H432pMEW8iNr2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

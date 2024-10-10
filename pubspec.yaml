@@ -1,0 +1,76 @@
+name: fityatalmasera
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0-282.3.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  audioplayers: ^6.0.0
+  sqflite: ^2.3.3+1
+  firebase_core: ^3.1.0
+  firebase_messaging: ^15.0.1
+  shared_preferences: ^2.2.3
+  internet_connection_checker: ^2.0.0
+  http: ^1.2.1
+  dio: ^5.4.3+1
+  fluttertoast: ^8.2.5
+  font_awesome_flutter: ^10.7.0
+  get: ^4.6.6
+  rxdart: ^0.28.0
+  provider: ^6.1.2
+  url_launcher: ^6.3.0
+  package_info_plus: ^8.0.2
+  # flutter_version_checker: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  build_runner: ^2.4.9
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Main_Logo.jpg"
+
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/music/
+    - assets/icons/
+
+  fonts:
+    - family: Marhey
+      fonts:
+        - asset: assets/fonts/Marhey-Bold.ttf
+        - asset: assets/fonts/Marhey-Light.ttf
+        - asset: assets/fonts/Marhey-Medium.ttf
+        - asset: assets/fonts/Marhey-SemiBold.ttf
+        - asset: assets/fonts/Marhey-Regular.ttf
+       
+          
+    - family: Rubik
+      fonts:
+       - asset: assets/fonts/Rubik-Black.ttf
+       - asset: assets/fonts/Rubik-BlackItalic.ttf
+       - asset: assets/fonts/Rubik-Regular.ttf
+       - asset: assets/fonts/Rubik-SemiBold.ttf
+       - asset: assets/fonts/Rubik-Medium.ttf
